@@ -3,15 +3,11 @@
 
 
 
-lista = [] 
+lista = [2, 8, 10, 2, 6, 8] 
 
-for i in range (10):
-    peticion = int(input ("ingrese un numero"))
-    lista.append (peticion)
-
-inversion_slice = lista[::-1]
+for i in range (len(lista)-1, -1, -1):
+    print (lista[i])
 
 print (f'Lista original {lista}')
-print (f'lista invertida {inversion_slice}')
 
 
